@@ -27,6 +27,15 @@
           <a href="./index.html" class="logo link"
             >Web<span class="logo-studio">Studio</span></a
           >
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="menu-hamburger" width="32" height="22">
+              <use href="./images/icons.svg#icon-hamburger"></use>
+            </svg>
+          </button>
           <ul class="menu list">
             <li>
               <a href="./index.html" class="menu-link underline link">Studio</a>
@@ -728,6 +737,113 @@
       </div>
     </div>
 
+    <!-- MOBILE MENU MODAL BOX-->
+
+    <div class="mobile-menu-box js-menu-container" id="mobile-menu">
+      <button type="button" class="close-button-mobile js-close-menu">
+        <svg
+          class="icon-close-button-mobile"
+          xmlns="http://www.w3.org/2000/svg"
+          width="8"
+          height="8"
+          viewBox="0 0 8 8"
+        >
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <nav>
+        <ul class="mobile-menu-nav-list list">
+          <li>
+            <a href="./index.html" class="menu-link underline link">Studio</a>
+          </li>
+          <li>
+            <a href="./portfolio.html" class="menu-link link">Portfolio</a>
+          </li>
+          <li>
+            <a href="" class="menu-link link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="link">
+        <ul class="list mobile-address-list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail-tel link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="mail-tel link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="list social-media-icons">
+        <li class="social-media-list">
+          <a href="" class="sm-icon">
+            <svg
+              class="svg-stuff"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <use href="./images/icons.svg#icon-instagram2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-media-list">
+          <a href="" class="sm-icon">
+            <svg
+              class="svg-stuff"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <use href="./images/icons.svg#icon-twitter1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-media-list">
+          <a href="" class="sm-icon">
+            <svg
+              class="svg-stuff"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <use href="./images/icons.svg#icon-facebook1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-media-list">
+          <a href="" class="sm-icon">
+            <svg
+              class="svg-stuff"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <use href="./images/icons.svg#icon-linkedin1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
