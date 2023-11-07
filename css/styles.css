@@ -1751,6 +1751,7 @@ nav .logo-studio {
 
 .footer-logo-div {
   margin-right: 120px;
+  margin-bottom: 0;
 }
 
 .social-media-text {
@@ -1764,6 +1765,7 @@ nav .logo-studio {
 justify-content: center;
 align-items: center;
 gap: 16px;
+margin-bottom: 0;
 }
 
 .sm-icon-f {
