@@ -1609,6 +1609,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
     display: none;
   }
   
+
+
+
 /* HEADER */
 
 .header {
@@ -1973,7 +1976,7 @@ width: 64px;
 height: 64px;
 }
 
-.index-h-three {
+.i-list-item > .index-h-three {
   color: var(--dark);
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -1982,9 +1985,11 @@ height: 64px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: start;
+  align-self:self-start;
 }
 
-.index-p {
+.stuff > .index-p {
   color: var(--text);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
